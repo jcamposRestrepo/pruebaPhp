@@ -1,0 +1,1 @@
+SELECT * FROM cafeteria.productos where stock = (select max(stock) From cafeteria.productos) ;
